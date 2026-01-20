@@ -7,6 +7,15 @@ All notable changes to the Specify CLI and templates are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.23] - 2025-01-20
+
+### Added
+
+- Support for Agent Skills (https://agentskills.io/) as a new agent option
+  - Agent Skills is an open standard for extending AI agents with packaged workflows
+  - Uses `.skills/` directory structure with `SKILL.md` files
+  - Compatible with multiple AI agents (Gemini CLI, Cursor, Copilot, etc.)
+
 ## [0.0.22] - 2025-11-07
 
 - Support for VS Code/Copilot agents, and moving away from prompts to proper agents with hand-offs.
