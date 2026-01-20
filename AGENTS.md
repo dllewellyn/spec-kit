@@ -48,6 +48,7 @@ Specify supports multiple AI agents by generating agent-specific command files a
 | **Amp**                    | `.agents/commands/`    | Markdown | `amp`           | Amp CLI                     |
 | **SHAI**                   | `.shai/commands/`      | Markdown | `shai`          | SHAI CLI                    |
 | **IBM Bob**                | `.bob/commands/`       | Markdown | N/A (IDE-based) | IBM Bob IDE                 |
+| **Agent Skills**           | `.skills/`             | Markdown | N/A (Standard)  | Agent Skills Standard       |
 
 ### Step-by-Step Integration Guide
 
